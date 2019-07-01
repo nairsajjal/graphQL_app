@@ -14,7 +14,7 @@ app.use('/graphql', graphqlHttp({
 
         }
         type RootMutation{
-            crateEvent(name: String): String
+            createEvent(name: String): String
 
         }
         schema{
