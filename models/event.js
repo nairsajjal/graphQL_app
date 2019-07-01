@@ -17,8 +17,11 @@ const mongoose = require('mongoose');
         date:{
             type: Date,
             required: true
+        },
+        creator: {
+            type: Schema.Types.ObjectId, 
+            re: 'User'
         }
-
 
  });
 
